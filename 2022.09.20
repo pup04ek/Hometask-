@@ -1,0 +1,98 @@
+//1st programm
+
+#include <iostream>
+
+int main() {
+
+  int a, b;
+
+  std::cout << "Enter value of a:" << std::endl;
+  std::cin >> a;
+
+  std::cout << "Enter value of b:" << std::endl;
+  std::cin >> b;
+
+  std::cout << "a = " << a << std::endl;
+  std::cout << "b = " << b << std::endl;
+
+  int max = (a >= b) ? a : b;
+
+  std::cout << "max number is: " << max << std::endl;
+
+  int min = (a <= b) ? a : b;
+
+  std::cout << "min number is: " << min;
+
+}
+
+
+
+//2nd programm 
+
+#include <iostream>
+
+int main() {
+
+  float a;
+  int b = 1;
+
+  std::cin >> a;
+
+  if (a >= 0) {
+    int c = a/b;
+    std::cout << c;
+  }
+  else {
+    std::cout << "invalid argument";
+  }
+}
+
+
+
+//3rd programm
+
+//a)
+#include <iostream>
+
+int main() {
+  while(true){
+    float a;
+    int b = 1;
+
+     std::cin >> a;
+
+    if (a >= 0) {
+      int c = a/b;
+      std::cout << c;
+    }
+    else {
+      std::cout << "invalid argument";
+    }
+  }
+}
+
+//b)
+#include <iostream>
+
+int main() {
+  for(;true;){
+    float a;
+    int b = 1;
+
+    std::cin >> a;
+
+    if (a >= 0) {
+      int c = a/b;
+      std::cout << c;
+    }
+    else {
+      std::cout << "invalid argument";
+    }
+  }
+}
+
+
+
+4th programm
+
+coming soon
